@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex - Dev em Dobro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/logo-pokemon.png" alt="pokebola" class="logo" />
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/pokebola-rodando.gif" alt="pokebola-botao" class="imagem-botao" />
+        </button>
+    </header>
+
+
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span> <em>#001</em></span>
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A
+                    semente cresce lentamente.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span> <em> #002</em></span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em
+                    suas patas traseiras.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span> <em>#003</em></span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+
+                </ul>
+
+                <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em
+                    movimento para buscar a luz solar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span> <em>#004</em></span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta
+                    de sua cauda.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span><em>#005</em></span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com
+                    garras afiadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span><em>#006</em></span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar
+                    incêndios florestais soprando chamas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span><em>#007</em></span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força
+                    vigorosa.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span><em>#008</em></span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse
+                    Wartortle é muito antigo.</p>
+            </li>
+
+
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Blastoise </span>
+                    <span><em>#009</em></span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="agua"> Água</li>
+                </ul>
+
+                <p class="descricao">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada,
+                    ele se retirará dentro de sua concha.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Pidgey </span>
+                    <span><em>#010</em></span>
+                </div>
+
+                <img src="./src/imagens/pidgey.gif" alt="pidgey" class="gif">
+
+                <ul class="tipos">
+                    <li class="voo"> Voar</li>
+                </ul>
+
+                <p class="descricao">Muito dócil. Se atacado, muitas vezes chuta areia para se proteger, em vez de
+                    revidar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Pidgeotto </span>
+                    <span><em>#011</em></span>
+                </div>
+
+                <img src="./src/imagens/pidgeotto.gif" alt="pidgotto" class="gif">
+
+                <ul class="tipos">
+                    <li class="voo"> Voar</li>
+                </ul>
+
+                <p class="descricao">Este Pokémon está cheio de vitalidade. Ele voa constantemente em torno de seu
+                    grande território em busca de presas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Pidgeot </span>
+                    <span><em>#012</em></span>
+                </div>
+
+                <img src="./src/imagens/pidgeot.gif" alt="pidgeot" class="gif">
+
+                <ul class="tipos">
+                    <li class="voo"> Voar</li>
+                </ul>
+
+                <p class="descricao">Este Pokémon voa na velocidade de Mach 2, buscando presas. Suas grandes garras são
+                    temidas como armas perversas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Caterpie </span>
+                    <span>
+                        <e>#013</e>
+                    </span>
+                </div>
+
+                <img src="./src/imagens/caterpie.gif" alt="caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="inseto"> Inseto</li>
+                </ul>
+
+                <p class="descricao">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os
+                    inimigos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Metapod </span>
+                    <span><em>#014</em></span>
+                </div>
+
+                <img src="./src/imagens/metapod.gif" alt="metapod" class="gif">
+
+                <ul class="tipos">
+                    <li class="inseto"> Inseto</li>
+                </ul>
+
+                <p class="descricao">Está esperando o momento de evoluir. Nesta fase, só pode endurecer, por isso
+                    permanece imóvel para evitar o ataque.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Pidgeot </span>
+                    <span><em>#015</em></span>
+                </div>
+
+                <img src="./src/imagens/butterfree.gif" alt="butterfree" class="gif">
+
+                <ul class="tipos">
+                    <li class="inseto"> Inseto</li>
+                </ul>
+
+                <p class="descricao">Em batalha, ele bate as asas em grande velocidade para liberar poeira altamente
+                    tóxica no ar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Chikorita </span>
+                    <span><em>#016</em></span>
+                </div>
+
+                <img src="./src/imagens/chikorita.gif" alt="chikorita" class="gif">
+
+                <ul class="tipos">
+                    <li class="grama"> Grama</li>
+                </ul>
+
+                <p class="descricao">Na batalha, Chikorita agita sua folha para manter o inimigo afastado. No entanto,
+                    uma doce fragrância também exala da folha, acalmando o Pokémon batalhador e criando uma atmosfera
+                    acolhedora e amigável ao redor.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Bayleef </span>
+                    <span><em>#017</em></span>
+                </div>
+
+                <img src="./src/imagens/bayleef.gif" alt="bayleef" class="gif">
+
+                <ul class="tipos">
+                    <li class="grama"> Grama</li>
+                </ul>
+
+                <p class="descricao">O pescoço de Bayleef é cercado por folhas enroladas. Dentro de cada folha tubular
+                    há um pequeno broto de uma árvore. A fragrância desta sessão deixa as pessoas animadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span> Meganium </span>
+                    <span><em>#018</em></span>
+                </div>
+
+                <img src="./src/imagens/meganium.gif" alt="meganium" class="gif">
+
+                <ul class="tipos">
+                    <li class="grama"> Grama </li>
+                </ul>
+
+                <p class="descricao">A fragrância da flor de Meganium acalma e acalma as emoções. Na batalha, este
+                    Pokémon exala mais de seu cheiro calmante para atenuar o espírito de luta do inimigo.</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>Desenvolvido por
+            <a href="https://github.com/martinsssellen" target="_blank"> <b>Ellen Regina</a></b>
+            durante a Semana do Programador do Dev em Dobro.
+        </p>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

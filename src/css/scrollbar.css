@@ -1,0 +1,14 @@
+/* == Barra de rolagem da página CSS ===== */
+
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgba(10, 10, 7, 1);
+	border-radius: 5px;
+}
